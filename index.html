@@ -9,8 +9,9 @@
 </head>
 <body>
 
-    <section class="valut">
+    <section class="valut"> 
         <div class="valut__modal">
+            <div data-close class="modal__close">&times;</div>
             <div class="valut__block">
                 <form class="valut__form" action="">
                     <input class="valut__summa" required placeholder="Сумма" type="number">
@@ -21,12 +22,13 @@
                 </form> 
             </div> 
         </div>
+
         <div class="container">
             <div class="valut__wrapper">
                 <div class="valut__items">
                     <div class="valut__card">BTC 0.001</div>
                     <div class="valut__btns">
-                        <button class="btn">Ввод</button>
+                        <button data-modal class="btn">Ввод</button>
                         <button class="btn">Вывод</button>
                     </div>
                 </div>
