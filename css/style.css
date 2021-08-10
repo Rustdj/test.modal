@@ -32,6 +32,70 @@
     cursor: pointer;
     background-color: burlywood;
 }
+
+.btn:active {
+    box-shadow: none;
+}
 .valut__btns:hover {
     box-shadow: #808c96;
+}
+.valut__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1050;
+    height: 500px;
+    margin-top: 15%;
+    margin-left: 38%;
+}
+.valut__block {
+    padding: 20px 0 30px 20px;
+    background-color: #cae68b;
+    width: 100%;
+    opacity: .9;
+    border-radius: 20px;
+}
+.valut__addres {
+    width: 335px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.valut__summa {
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.valut__input {
+    width: 384px;
+    height: 118px;
+    resize: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    border: none;
+    box-shadow: 2px 2px 10px;
+    border-radius: 10px;
+}
+.valut__block button {
+    width: 100px;
+    height: 30px;
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.valut__block button:hover {
+    box-shadow: 2px 2px 20px #e44616;
+    color: #fff
+}
+.valut__block button:active {
+    box-shadow: none;
+}
+.valut__block p {
+    font-size: 10px;
 }
