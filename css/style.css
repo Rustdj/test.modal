@@ -1,0 +1,37 @@
+.valut__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 200px);
+    row-gap: 20px;
+    column-gap: 30px;
+}
+.valut__items {
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px;
+    background-color: #808c96;
+    opacity: .8;
+}
+.valut__card {
+    margin-top: 50px;
+    margin-left: 33%;
+    font-size: 30px;
+    color: #fff;
+}
+.valut__btns {
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.btn {
+    width: 130px;
+    height: 33px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    box-shadow: inset -1px 0px 13px 3px;
+    cursor: pointer;
+    background-color: burlywood;
+}
+.valut__btns:hover {
+    box-shadow: #808c96;
+}
